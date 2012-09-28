@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[map-sea-texture : ${1:resoure location}]]></content>
+  <tabTrigger>osm-map-sea-texture</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

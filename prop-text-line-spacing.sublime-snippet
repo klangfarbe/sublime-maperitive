@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-line-spacing : ${1:aspect ratio}]]></content>
+  <tabTrigger>osm-text-line-spacing</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

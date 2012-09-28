@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-direction : ${1:text direction}]]></content>
+  <tabTrigger>osm-text-direction</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

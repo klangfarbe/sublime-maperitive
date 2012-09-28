@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-orientation : ${1:shape orientation}]]></content>
+  <tabTrigger>osm-text-orientation</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

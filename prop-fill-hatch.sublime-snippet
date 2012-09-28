@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[fill-hatch : ${1:hatch style}]]></content>
+  <tabTrigger>osm-fill-hatch</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

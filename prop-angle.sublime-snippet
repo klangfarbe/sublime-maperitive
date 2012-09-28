@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[angle : ${1:angle}]]></content>
+  <tabTrigger>osm-angle</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

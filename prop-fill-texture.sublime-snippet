@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[fill-texture : ${1:resoure location}]]></content>
+  <tabTrigger>osm-fill-texture</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[border-opacity : ${1:opacity}]]></content>
+  <tabTrigger>osm-border-opacity</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

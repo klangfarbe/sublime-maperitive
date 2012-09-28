@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[curved : ${1:boolean}]]></content>
+  <tabTrigger>osm-curved</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-decoration : ${1:text decoration}]]></content>
+  <tabTrigger>osm-text-decoration</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

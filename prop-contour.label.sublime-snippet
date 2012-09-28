@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[contour.label : ${1:boolean}]]></content>
+  <tabTrigger>osm-contour.label</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[shape : ${1:shape type}]]></content>
+  <tabTrigger>osm-shape</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

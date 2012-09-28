@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[line-offset-miter-limit : ${1:value greater or equal to 1}]]></content>
+  <tabTrigger>osm-line-offset-miter-limit</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-avoid-overlaps : ${1:boolean}]]></content>
+  <tabTrigger>osm-text-avoid-overlaps</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

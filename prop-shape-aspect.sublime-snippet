@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[shape-aspect : ${1:aspect ratio}]]></content>
+  <tabTrigger>osm-shape-aspect</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

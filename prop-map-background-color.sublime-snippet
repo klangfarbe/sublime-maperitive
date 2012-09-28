@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[map-background-color : ${1:color}]]></content>
+  <tabTrigger>osm-map-background-color</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

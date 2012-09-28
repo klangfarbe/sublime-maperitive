@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[lflp.min-buffer-space : ${1:real number}]]></content>
+  <tabTrigger>osm-lflp.min-buffer-space</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

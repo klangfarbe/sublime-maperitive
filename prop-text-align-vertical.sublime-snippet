@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text-align-vertical : ${1:alignment}]]></content>
+  <tabTrigger>osm-text-align-vertical</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

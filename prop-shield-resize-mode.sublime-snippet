@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[shield-resize-mode : ${1:shield resize mode}]]></content>
+  <tabTrigger>osm-shield-resize-mode</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

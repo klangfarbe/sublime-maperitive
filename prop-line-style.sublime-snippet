@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[line-style : ${1:dash style}]]></content>
+  <tabTrigger>osm-line-style</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

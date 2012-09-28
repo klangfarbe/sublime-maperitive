@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[line-hatch : ${1:hatch style}]]></content>
+  <tabTrigger>osm-line-hatch</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

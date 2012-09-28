@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[webmap.zoom-factor-correction : ${1:real number}]]></content>
+  <tabTrigger>osm-webmap.zoom-factor-correction</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

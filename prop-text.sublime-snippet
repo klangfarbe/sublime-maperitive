@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[text : ${1:label definition}]]></content>
+  <tabTrigger>osm-text</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[align-horizontal : ${1:alignment}]]></content>
+  <tabTrigger>osm-align-horizontal</tabTrigger>
+  <scope>source.mrules</scope>
+  <description>Maperitive Property</description>
+</snippet>
