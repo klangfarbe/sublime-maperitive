@@ -9,7 +9,7 @@ which allows yout to render your custom maps based on
 Screenshot
 ----------
 
-![](images/screenshot.png "Sublime Text with Soda Theme and Maperitive package")
+![](https://raw.github.com/klangfarbe/sublime-maperitive/master/images/screenshot.png "Sublime Text with Soda Theme and Maperitive package")
 
 
 Installation
