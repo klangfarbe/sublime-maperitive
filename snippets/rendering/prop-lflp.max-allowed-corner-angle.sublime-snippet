@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[lflp.max-allowed-corner-angle : ${1:integer}]]></content>
-  <tabTrigger>osm-lflp.max-allowed-corner-angle</tabTrigger>
+  <tabTrigger>osm:lflp.max-allowed-corner-angle</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

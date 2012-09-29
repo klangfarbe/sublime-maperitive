@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[map-background-opacity : ${1:opacity}]]></content>
-  <tabTrigger>osm-map-background-opacity</tabTrigger>
+  <tabTrigger>osm:map-background-opacity</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

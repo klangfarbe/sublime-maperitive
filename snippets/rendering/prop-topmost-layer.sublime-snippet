@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[topmost-layer : ${1:boolean}]]></content>
-  <tabTrigger>osm-topmost-layer</tabTrigger>
+  <tabTrigger>osm:topmost-layer</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

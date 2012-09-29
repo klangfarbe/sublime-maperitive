@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[map-sea-opacity : ${1:opacity}]]></content>
-  <tabTrigger>osm-map-sea-opacity</tabTrigger>
+  <tabTrigger>osm:map-sea-opacity</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

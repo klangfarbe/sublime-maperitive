@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[font-style : ${1:font style}]]></content>
-  <tabTrigger>osm-font-style</tabTrigger>
+  <tabTrigger>osm:font-style</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

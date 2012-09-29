@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[text-max-width : ${1:aspect ratio}]]></content>
-  <tabTrigger>osm-text-max-width</tabTrigger>
+  <tabTrigger>osm:text-max-width</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

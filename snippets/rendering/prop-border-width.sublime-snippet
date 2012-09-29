@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[border-width : ${1:non-negative value}]]></content>
-  <tabTrigger>osm-border-width</tabTrigger>
+  <tabTrigger>osm:border-width</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

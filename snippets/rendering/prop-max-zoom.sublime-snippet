@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[max-zoom : ${1:zoom}]]></content>
-  <tabTrigger>osm-max-zoom</tabTrigger>
+  <tabTrigger>osm:max-zoom</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

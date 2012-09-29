@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[text-opacity : ${1:opacity}]]></content>
-  <tabTrigger>osm-text-opacity</tabTrigger>
+  <tabTrigger>osm:text-opacity</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

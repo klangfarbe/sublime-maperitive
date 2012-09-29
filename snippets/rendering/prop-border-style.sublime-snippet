@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[border-style : ${1:dash style}]]></content>
-  <tabTrigger>osm-border-style</tabTrigger>
+  <tabTrigger>osm:border-style</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

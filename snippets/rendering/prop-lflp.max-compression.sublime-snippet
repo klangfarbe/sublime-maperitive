@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[lflp.max-compression : ${1:real number}]]></content>
-  <tabTrigger>osm-lflp.max-compression</tabTrigger>
+  <tabTrigger>osm:lflp.max-compression</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

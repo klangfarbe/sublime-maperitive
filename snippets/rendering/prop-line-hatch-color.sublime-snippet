@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[line-hatch-color : ${1:color}]]></content>
-  <tabTrigger>osm-line-hatch-color</tabTrigger>
+  <tabTrigger>osm:line-hatch-color</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

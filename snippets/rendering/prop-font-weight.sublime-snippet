@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[font-weight : ${1:font weight}]]></content>
-  <tabTrigger>osm-font-weight</tabTrigger>
+  <tabTrigger>osm:font-weight</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

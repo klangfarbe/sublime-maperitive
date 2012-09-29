@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[line-offset-sides : ${1:line offset sides}]]></content>
-  <tabTrigger>osm-line-offset-sides</tabTrigger>
+  <tabTrigger>osm:line-offset-sides</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>

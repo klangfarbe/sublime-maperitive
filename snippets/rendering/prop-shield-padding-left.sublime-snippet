@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[shield-padding-left : ${1:zoom factor value}]]></content>
-  <tabTrigger>osm-shield-padding-left</tabTrigger>
+  <tabTrigger>osm:shield-padding-left</tabTrigger>
   <scope>source.mrules</scope>
-  <description>Maperitive Property</description>
+  <description>Maperitive</description>
 </snippet>
