@@ -24,7 +24,7 @@
 			<key>match</key>
 			<string>".*?"</string>
 			<key>name</key>
-			<string>variable.parameter.mrules</string>
+			<string>comment.mrules</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -40,12 +40,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.mrules</string>
+					<string>entity.name.function.mrules</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.mrules</string>
+					<string>constant.numeric.mrules</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -65,7 +65,7 @@
 			<key>match</key>
 			<string>^(features|rules|properties)\b</string>
 			<key>name</key>
-			<string>entity.name.class.mrules</string>
+			<string>entity.name.tag.mrules</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -91,7 +91,7 @@
 			<key>match</key>
 			<string>\b(stop|if|elseif|else|for|elsefor)\b</string>
 			<key>name</key>
-			<string>keyword.control.mrules</string>
+			<string>variable.parameter.mrules</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -99,7 +99,7 @@
 			<key>match</key>
 			<string>(\[|\]|\(|\)|(area|node|way|relation|contour|gpstrack|gpsroute|gpswaypoint|gpspoint)\[|stop|NOT|AND|OR|[@\$]\w+|\*)</string>
 			<key>name</key>
-			<string>keyword.operator.mrules</string>
+			<string>variable.parameter.mrules</string>
 		</dict>
 		<dict>
 			<key>captures</key>

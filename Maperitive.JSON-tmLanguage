@@ -10,7 +10,7 @@
 		},
 		{
 			"comment": "Quoted strings",
-			"name": "variable.parameter.mrules",
+			"name": "comment.mrules",
 			"match": "\".*?\""
 		},
 		{
@@ -22,8 +22,8 @@
 			"comment": "Zoom level maps like <zoom>:<value>",
 			"match": "(\\d+\\.?\\d*:)(-?\\d+\\.?\\d*)",
 			"captures": {
-				"1": { "name": "entity.name.tag.mrules" },
-			    "2": { "name": "variable.parameter.mrules" }
+				"1": { "name": "entity.name.function.mrules" },
+				"2": { "name": "constant.numeric.mrules" }
 			}
 		},
 		{
@@ -33,7 +33,7 @@
 		},
 		{
 			"match": "^(features|rules|properties)\\b",
-			"name": "entity.name.class.mrules"
+			"name": "entity.name.tag.mrules"
 		},
 		{
 			"match": "\\b(target|points|lines|areas)\\b",
@@ -50,18 +50,18 @@
 		},
 		{
 			"match": "\\b(stop|if|elseif|else|for|elsefor)\\b",
-			"name": "keyword.control.mrules"
+			"name": "variable.parameter.mrules"
 		},
 		{
 			"comment": "spartial queries",
 			"match": "(\\[|\\]|\\(|\\)|(area|node|way|relation|contour|gpstrack|gpsroute|gpswaypoint|gpspoint)\\[|stop|NOT|AND|OR|[@\\$]\\w+|\\*)",
-			"name": "keyword.operator.mrules"
+			"name": "variable.parameter.mrules"
 		},
 		{
 			"comment": "everything else before the first :",
 			"match": "(\\w[ \\.\\w-]*\\w)\\s*:",
 			"captures": {
-			    "1": { "name": "string.mrules" }
+				"1": { "name": "string.mrules" }
 			}
 		}
 	],
