@@ -15,6 +15,15 @@ Screenshot
 Installation
 ------------
 
+### Via Package Control
+
+The easiest way to install is by using Will Bonds great [Package Control](http://wbond.net/sublime_packages/package_control).
+
+* Open the Command Pallete by typing `cmd + shift + p` (OS X)
+  or `ctrl + shift + p` (Windows, Linux)
+* Start typing `package install`
+* Look for the package **Maperitive**
+
 ### Manual installation
 
 Clone the project repository into your [Sublime Packages directory](http://docs.sublimetext.info/en/latest/basic_concepts.html#the-data-directory):
