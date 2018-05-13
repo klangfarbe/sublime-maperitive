@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[line-start-cap : ${1:line cap}]]></content>
   <tabTrigger>osm:line-start-cap</tabTrigger>
-  <scope>source.mrules</scope>
-  <description>Maperitive</description>
+  <scope>source.maperitive</scope>
+  <description>    Line staty cap type</description>
 </snippet>

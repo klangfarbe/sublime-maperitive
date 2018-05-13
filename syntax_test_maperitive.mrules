@@ -136,7 +136,6 @@ features
 
 properties
 // <- entity.name.class
-
     textproperty: simple
 //  ^ string
 //              ^^^^^^^^ source
@@ -175,5 +174,4 @@ rules
     draw : text
 //  ^^^^ entity.name.function
 //      ^^^^^^^ source
-
 

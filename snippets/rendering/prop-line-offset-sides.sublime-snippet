@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[line-offset-sides : ${1:line offset sides}]]></content>
   <tabTrigger>osm:line-offset-sides</tabTrigger>
-  <scope>source.mrules</scope>
-  <description>Maperitive</description>
+  <scope>source.maperitive</scope>
+  <description>    Specifies on which sides to offset the line</description>
 </snippet>
