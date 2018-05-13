@@ -1,0 +1,179 @@
+// SYNTAX TEST "Packages/sublime-maperitive/Maperitive.sublime-syntax"
+
+// Line Comments
+// <- comment.line
+
+// ============================================================================
+// Test invalid indentation of root keywords
+// ============================================================================
+ features
+// <- invalid.illegal
+
+ properties
+// <- invalid.illegal
+
+ rules
+// <- invalid.illegal
+
+
+// ============================================================================
+// Test invalid indentation where indent is needes
+// ============================================================================
+
+areas
+// <- invalid.illegal
+
+lines
+// <- invalid.illegal
+
+points
+// <- invalid.illegal
+
+stop
+// <- invalid.illegal
+
+if
+// <- invalid.illegal
+
+else
+// <- invalid.illegal
+
+elseif
+// <- invalid.illegal
+
+for
+// <- invalid.illegal
+
+elsefor
+// <- invalid.illegal
+
+someproperty: sdfsdf
+// <- invalid.illegal
+
+contour[]
+// <- invalid.illegal
+
+  contour[]
+// <- invalid.illegal
+
+// ============================================================================
+// Test invalid tab indentations
+// ============================================================================
+		  	   			   someproperty: sdfsdf
+// <- invalid.illegal
+
+// ============================================================================
+// Test invalid indentation where indent is needes
+// ============================================================================
+features
+// <- entity.name.class
+    areas
+//  ^ entity.name.tag
+
+        oneway : oneway=YES OR oneway=TRUE AND NOT oneway=-1
+//      ^^^^^^ string
+//               ^^^^^^ variable.language
+//                      ^^^ constant.language
+//                          ^^ keyword.operator.logical
+//                             ^^^^^^ variable.language
+//                                    ^^^^ constant.language
+//                                         ^^^ keyword.operator.logical
+//                                             ^^^ keyword.operator.logical
+//                                                 ^^^^^^ variable.language
+//                                                         ^ constant.numeric.integer
+
+        oneway : oneway=yes or oneway=true and not oneway=-1
+//      ^^^^^^ string
+//               ^^^^^^ variable.language
+//                      ^^^ constant.language
+//                          ^^ keyword.operator.logical
+//                             ^^^^^^ variable.language
+//                                    ^^^^ constant.language
+//                                         ^^^ keyword.operator.logical
+//                                             ^^^ keyword.operator.logical
+//                                                 ^^^^^^ variable.language
+//                                                         ^ constant.numeric.integer
+
+        oneway : oneway=false or oneway=no and not oneway=-1
+//      ^^^^^^ string
+//               ^^^^^^ variable.language
+//                      ^^^^^ constant.language
+//                            ^^ keyword.operator.logical
+//                               ^^^^^^ variable.language
+//                                      ^^ constant.language
+//                                         ^^^ keyword.operator.logical
+//                                             ^^^ keyword.operator.logical
+//                                                 ^^^^^^ variable.language
+//                                                         ^ constant.numeric.integer
+
+        function: @isMulti(p1, p2, p3)
+//      ^^^^^^^^ string
+//                ^^^^^^^^ entity.name.function
+//                        ^ punctuation.section.group.begin
+//                         ^^^^^^^^^^ source
+//                                   ^ punctuation.section.group.end
+
+        spatial: relation[type=route AND network="National Byway"]
+//      ^^^^^^^ string
+//               ^^^^^^^^ keyword.control.conditional
+//                       ^ punctuation.section.brackets.begin
+//                        ^^^^ variable.language
+//                            ^^^^^^ source
+//                                   ^^^ keyword.operator.logical
+//                                       ^^^^^^^ variable.language
+//                                               ^^^^^^^^^^^^^^^^ string
+//                                                               ^ punctuation.section.brackets.end
+
+    lines
+//  ^ entity.name.tag
+    points
+//  ^ entity.name.tag
+
+    areas, lines
+//  ^ entity.name.tag
+//       ^ source
+//         ^ entity.name.tag
+
+properties
+// <- entity.name.class
+
+    textproperty: simple
+//  ^ string
+//              ^^^^^^^^ source
+
+    hex-property: #F1EEE8
+//  ^ string
+//                ^^^^^^^ constant.numeric.hex
+
+    int property: 1
+//  ^ string
+//                ^ constant.numeric.integer
+
+    float.property: 1.23
+//  ^ string
+//                  ^^^^ constant.numeric.float
+
+    zoom.property: 1:23
+//  ^ string
+//                 ^ constant.numeric
+//                   ^^ entity.name.function
+
+    percent: 0.23%
+//  ^ string
+//           ^^^^^ variable.language
+
+rules
+// <- entity.name.class
+
+    target: housenumber
+//  ^ entity.name.tag
+//        ^^^^^^^^^^^^^ source
+
+    define
+//  ^^^^^^ entity.name.function
+
+    draw : text
+//  ^^^^ entity.name.function
+//      ^^^^^^^ source
+
+

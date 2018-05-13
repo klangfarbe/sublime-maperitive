@@ -1,0 +1,130 @@
+%YAML 1.2
+---
+name: Maperitive
+file_extensions: [mrules, mscript]
+scope: source.maperitive
+
+variables:
+  classes: \b(?:features|rules|properties)\b
+  functions: \b(?:define|draw)\b
+  keywords: \b(?:points|areas|lines|target|define|draw)\b
+  conditionals: \b(?:stop|if|elseif|else|for|elsefor)\b
+  properties: \b(\w[\s\.\w-]*\w)\b
+  indent: '({{keywords}}|{{conditionals}}|{{properties}}\s*:).*'
+  spatial: \b(area|node|way|relation|contour|gpstrack|gpsroute|gpswaypoint|gpspoint)\b(\[)
+
+  int: '\b-?\d+\b'
+  uint: '\b\d+\b'
+  float: '\b-?\d+\.\d+\b'
+  ufloat: '\b\d+\.\d+\b'
+  numeric: '\b-?\d+(?:\.\d+)?\b'
+
+contexts:
+  main:
+    - comment: Line comments
+      scope: comment.line
+      match: //.*
+
+    - include: mrules
+
+  mrules:
+    # preceeding whitespace errors
+    - match: ^\s+\b({{classes}})\b
+      scope: invalid.illegal
+
+    - match: \t
+      scope: invalid.illegal
+
+    # non-preceeding whitespace errors
+    - match: '^{{indent}}'
+      scope: invalid.illegal
+
+    # Paths
+    - match: '\w+[/\.\w-]*/[/\.\w-]*\w'
+      scope: meta
+
+    # Classes
+    - match: ^{{classes}}
+      scope: entity.name.class
+
+    # Functions
+    - match: '{{functions}}'
+      scope: entity.name.function
+
+    # Keywords
+    - match: '({{keywords}})(?:,\s*({{keywords}}))?(?:,\s*({{keywords}}))?'
+      captures:
+          1: entity.name.tag
+          2: entity.name.tag
+          3: entity.name.tag
+
+    # An OSM tags
+    - match: \b(\w+)=
+      captures:
+        1: variable.language
+
+    # conditionals
+    - match: '{{conditionals}}'
+      scope: keyword.control.conditional
+
+    # Quoted strings
+    - match: '".*?"'
+      scope: string
+
+    # Zoom level maps like <zoom>:<value>
+    - match: '({{numeric}}):({{numeric}})'
+      captures:
+        2: entity.name.function
+        1: constant.numeric
+
+    # percent
+    - match: '({{ufloat}}|{{uint}})(%)'
+      scope: variable.language
+
+    # Colors and other numerics
+    - match: '#\h{3,6}'
+      scope: constant.numeric.hex
+
+    # float
+    - match: '{{float}}'
+      scope: constant.numeric.float
+
+    # int
+    - match: '{{int}}'
+      scope: constant.numeric.integer
+
+    # Properties before the first :'
+    - match: '{{properties}}\s*:'
+      captures:
+        1: string
+
+    # no spatial query without a property
+    - match: '^\s*{{spatial}}.*'
+      scope: invalid.illegal
+
+    - match: '{{spatial}}'
+      captures:
+        1: keyword.control.conditional
+        2: punctuation.section.brackets.begin
+
+    - match: \[
+      scope: punctuation.section.brackets.begin
+
+    - match: \]
+      scope: punctuation.section.brackets.end
+
+    - match: \(
+      scope: punctuation.section.group.begin
+
+    - match: \)
+      scope: punctuation.section.group.end
+
+    # spatial functions
+    - match: '[@\$]\w+'
+      scope: entity.name.function
+
+    - match: \b(?i:not|and|or)\b
+      scope: keyword.operator.logical
+
+    - match: \b(?i:yes|no|true|false)\b
+      scope: constant.language
